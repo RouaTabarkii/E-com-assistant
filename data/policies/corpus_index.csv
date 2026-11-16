@@ -1,0 +1,10 @@
+doc_id,title,doc_type,version,effective_date,language,owner,source_path,related_docs
+POL-RET-001,Politique de retour et de rétractation,retour,2.0,2026-01-01,fr,Service Client,data/policies/POL-RET-001_retours_retractation.md,POL-REF-002;POL-WAR-004
+POL-REF-002,Politique de remboursement,remboursement,1.3,2026-01-01,fr,Service Financier,data/policies/POL-REF-002_remboursement.md,POL-RET-001;POL-PAY-007;POL-DEL-003
+POL-DEL-003,Politique de livraison et de gestion des retards,livraison,2.1,2026-03-01,fr,Logistique,data/policies/POL-DEL-003_livraison_retards.md,POL-REF-002;POL-SEL-005
+POL-WAR-004,Politique de garantie et de service après-vente,garantie,1.1,2026-01-01,fr,Service Client,data/policies/POL-WAR-004_garantie_sav.md,POL-RET-001;POL-REF-002
+POL-SEL-005,Règles applicables aux vendeurs de la marketplace,vendeur,1.4,2026-02-01,fr,Direction Marketplace,data/policies/POL-SEL-005_regles_vendeurs.md,POL-REV-006;POL-DEL-003
+POL-REV-006,Politique de modération des avis clients,avis,1.0,2026-01-01,fr,Qualité,data/policies/POL-REV-006_moderation_avis.md,POL-SEL-005
+POL-PAY-007,Politique de paiement et de paiement en plusieurs fois,paiement,1.2,2026-01-01,fr,Service Financier,data/policies/POL-PAY-007_paiements.md,POL-REF-002;POL-CAN-009
+POL-PRV-008,Politique de protection des données personnelles,donnees_personnelles,1.0,2026-01-01,fr,Délégué à la protection des données,data/policies/POL-PRV-008_donnees_personnelles.md,
+POL-CAN-009,Politique d'annulation de commande,annulation,1.0,2026-01-01,fr,Service Client,data/policies/POL-CAN-009_annulation_commandes.md,POL-REF-002;POL-PAY-007;POL-SEL-005
