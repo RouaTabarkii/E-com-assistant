@@ -10,6 +10,7 @@ owner: Service Financier
 
 # Politique de remboursement
 
+
 ## 1. Principe
 1.1 Un remboursement est émis lorsqu'une commande est annulée, retournée conformément à POL-RET-001, ou non livrée selon POL-DEL-003.
 1.2 Le remboursement porte sur le prix du produit. Les frais de livraison initiaux sont remboursés dans les cas listés en 3.
