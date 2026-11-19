@@ -1,0 +1,562 @@
+[
+  {
+    "text": "1.1 Le client peut annuler gratuitement sa commande tant qu'elle n'a pas le statut « shipped ».\n1.2 L'annulation se fait depuis « Mes commandes » > « Annuler ».\n1.3 Le remboursement est déclenché selon POL-REF-002, section 2.2.",
+    "metadata": {
+      "doc_id": "POL-CAN-009",
+      "title": "Politique d'annulation de commande",
+      "file_type": "md",
+      "source_file": "POL-CAN-009_annulation_commandes.md",
+      "section_title": "1. Annulation par le client"
+    }
+  },
+  {
+    "text": "2.1 Une fois la commande au statut « shipped », elle ne peut plus être annulée.\n2.2 Le client peut refuser le colis ou exercer son droit de rétractation (POL-RET-001).",
+    "metadata": {
+      "doc_id": "POL-CAN-009",
+      "title": "Politique d'annulation de commande",
+      "file_type": "md",
+      "source_file": "POL-CAN-009_annulation_commandes.md",
+      "section_title": "2. Commande déjà expédiée"
+    }
+  },
+  {
+    "text": "3.1 Le vendeur ne peut annuler qu'en cas de rupture de stock ou d'erreur de prix manifeste.\n3.2 Le statut de la commande passe alors à « unavailable » ou « canceled » et le client est remboursé intégralement, frais de livraison compris.\n3.3 Les annulations à l'initiative du vendeur comptent dans son taux d'annulation (POL-SEL-005, section 4.2).",
+    "metadata": {
+      "doc_id": "POL-CAN-009",
+      "title": "Politique d'annulation de commande",
+      "file_type": "md",
+      "source_file": "POL-CAN-009_annulation_commandes.md",
+      "section_title": "3. Annulation par le vendeur"
+    }
+  },
+  {
+    "text": "4.1 Boleto non payé sous 3 jours : annulation automatique (POL-PAY-007).\n4.2 Paiement refusé non régularisé sous 24 heures : annulation automatique.\n4.3 Commande non expédiée 30 jours après l'approbation : annulation et remboursement.",
+    "metadata": {
+      "doc_id": "POL-CAN-009",
+      "title": "Politique d'annulation de commande",
+      "file_type": "md",
+      "source_file": "POL-CAN-009_annulation_commandes.md",
+      "section_title": "4. Annulation automatique"
+    }
+  },
+  {
+    "text": "5.1 Le client est informé de toute annulation par e-mail.",
+    "metadata": {
+      "doc_id": "POL-CAN-009",
+      "title": "Politique d'annulation de commande",
+      "file_type": "md",
+      "source_file": "POL-CAN-009_annulation_commandes.md",
+      "section_title": "5. Notification"
+    }
+  },
+  {
+    "text": "1.1 À la validation de la commande, la plateforme affiche une **date de livraison estimée**.\n1.2 Une commande est dite **en retard** lorsque sa date de livraison effective est postérieure à la date de livraison estimée.\n1.3 Une commande est dite **livrée** lorsque le transporteur confirme la remise au client (statut « delivered »).",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "1. Date de livraison estimée"
+    }
+  },
+  {
+    "text": "2.1 Les statuts possibles sont : created, approved, invoiced, processing, shipped, delivered, unavailable, canceled.\n2.2 Le client peut suivre le statut depuis son espace « Mes commandes ».",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "2. Statuts d'une commande"
+    }
+  },
+  {
+    "text": "3.1 **Retard de 1 à 7 jours** : le client reçoit un bon de réduction égal aux frais de livraison payés, utilisable sur sa prochaine commande.\n3.2 **Retard de plus de 7 jours** : le client peut annuler la commande et obtenir un remboursement complet selon POL-REF-002.\n3.3 **Retard de plus de 15 jours** : en plus du remboursement ou de la livraison, le client reçoit un bon d'achat de **10 %** de la valeur de la commande.",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "3. Compensation en cas de retard"
+    }
+  },
+  {
+    "text": "3.4 Les compensations ne sont pas cumulables entre elles : le palier le plus favorable s'applique.",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "3. Compensation en cas de retard"
+    }
+  },
+  {
+    "text": "4.1 Un colis est considéré comme perdu **30 jours** après la date de livraison estimée sans confirmation de livraison.\n4.2 Le client choisit alors entre un remboursement complet et un nouvel envoi à la charge du vendeur.",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "4. Colis perdu"
+    }
+  },
+  {
+    "text": "5.1 Après trois tentatives de livraison infructueuses, le colis est retourné au vendeur.\n5.2 Si l'adresse fournie est erronée, les frais de réexpédition sont à la charge du client.",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "5. Adresse incorrecte ou client absent"
+    }
+  },
+  {
+    "text": "6.1 Le client doit signaler le dommage sous 7 jours avec photos. Le retour est gratuit (POL-RET-001, section 4).",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "6. Produit endommagé à la livraison"
+    }
+  },
+  {
+    "text": "7.1 Le vendeur doit remettre le colis au transporteur dans le délai fixé par POL-SEL-005, section 3.",
+    "metadata": {
+      "doc_id": "POL-DEL-003",
+      "title": "Politique de livraison et de gestion des retards",
+      "file_type": "md",
+      "source_file": "POL-DEL-003_livraison_retards.md",
+      "section_title": "7. Obligations du vendeur"
+    }
+  },
+  {
+    "text": "1.1 Carte de crédit (credit_card).\n1.2 Boleto bancaire (boleto).\n1.3 Voucher ou avoir (voucher).\n1.4 Carte de débit (debit_card).\n1.5 Un client peut combiner plusieurs moyens de paiement sur une même commande, par exemple un voucher et une carte de crédit.",
+    "metadata": {
+      "doc_id": "POL-PAY-007",
+      "title": "Politique de paiement et de paiement en plusieurs fois",
+      "file_type": "md",
+      "source_file": "POL-PAY-007_paiements.md",
+      "section_title": "1. Moyens de paiement acceptés"
+    }
+  },
+  {
+    "text": "2.1 Le paiement par carte de crédit peut être réparti en **12 échéances maximum**.\n2.2 Le montant minimal d'une échéance est de **5 BRL**.\n2.3 Au-delà de 6 échéances, des frais d'intérêts peuvent s'appliquer ; ils sont affichés avant la validation.\n2.4 Le boleto, la carte de débit et le voucher ne permettent pas le paiement échelonné.",
+    "metadata": {
+      "doc_id": "POL-PAY-007",
+      "title": "Politique de paiement et de paiement en plusieurs fois",
+      "file_type": "md",
+      "source_file": "POL-PAY-007_paiements.md",
+      "section_title": "2. Paiement en plusieurs fois"
+    }
+  },
+  {
+    "text": "3.1 Le boleto est valable **3 jours calendaires** après son émission.\n3.2 Une commande dont le boleto n'est pas payé dans ce délai est automatiquement annulée.\n3.3 La commande est approuvée et traitée après confirmation du paiement, ce qui peut prendre 1 à 2 jours ouvrés.",
+    "metadata": {
+      "doc_id": "POL-PAY-007",
+      "title": "Politique de paiement et de paiement en plusieurs fois",
+      "file_type": "md",
+      "source_file": "POL-PAY-007_paiements.md",
+      "section_title": "3. Boleto bancaire"
+    }
+  },
+  {
+    "text": "4.1 Un voucher est valable 12 mois à compter de son émission.\n4.2 Il n'est ni remboursable en espèces ni transférable.",
+    "metadata": {
+      "doc_id": "POL-PAY-007",
+      "title": "Politique de paiement et de paiement en plusieurs fois",
+      "file_type": "md",
+      "source_file": "POL-PAY-007_paiements.md",
+      "section_title": "4. Vouchers et avoirs"
+    }
+  },
+  {
+    "text": "5.1 Les données de carte sont traitées par un prestataire certifié et ne sont jamais stockées par la plateforme.\n5.2 En cas de refus de paiement, la commande reste en attente 24 heures avant annulation.",
+    "metadata": {
+      "doc_id": "POL-PAY-007",
+      "title": "Politique de paiement et de paiement en plusieurs fois",
+      "file_type": "md",
+      "source_file": "POL-PAY-007_paiements.md",
+      "section_title": "5. Sécurité"
+    }
+  },
+  {
+    "text": "6.1 Voir POL-REF-002 pour le remboursement selon le moyen de paiement utilisé.",
+    "metadata": {
+      "doc_id": "POL-PAY-007",
+      "title": "Politique de paiement et de paiement en plusieurs fois",
+      "file_type": "md",
+      "source_file": "POL-PAY-007_paiements.md",
+      "section_title": "6. Remboursements"
+    }
+  },
+  {
+    "text": "1.1 Données d'identification : nom, adresse e-mail, téléphone.\n1.2 Données de livraison : adresse, code postal, ville, État.\n1.3 Données de commande : produits, montants, moyen de paiement, avis.",
+    "metadata": {
+      "doc_id": "POL-PRV-008",
+      "title": "Politique de protection des données personnelles",
+      "file_type": "md",
+      "source_file": "POL-PRV-008_donnees_personnelles.md",
+      "section_title": "1. Données collectées"
+    }
+  },
+  {
+    "text": "2.1 Exécution des commandes et de la livraison.\n2.2 Gestion du service client, des retours et des remboursements.\n2.3 Amélioration de la qualité de service et statistiques anonymisées.",
+    "metadata": {
+      "doc_id": "POL-PRV-008",
+      "title": "Politique de protection des données personnelles",
+      "file_type": "md",
+      "source_file": "POL-PRV-008_donnees_personnelles.md",
+      "section_title": "2. Finalités"
+    }
+  },
+  {
+    "text": "3.1 Les données de commande sont conservées **5 ans** à compter de la commande, pour des raisons comptables et légales.\n3.2 Les données de compte inactif sont supprimées après 3 ans d'inactivité.\n3.3 Les avis clients sont conservés tant que le produit est référencé.",
+    "metadata": {
+      "doc_id": "POL-PRV-008",
+      "title": "Politique de protection des données personnelles",
+      "file_type": "md",
+      "source_file": "POL-PRV-008_donnees_personnelles.md",
+      "section_title": "3. Durée de conservation"
+    }
+  },
+  {
+    "text": "4.1 Tout client peut demander l'accès, la rectification, la suppression ou la portabilité de ses données.\n4.2 La plateforme répond à la demande sous **15 jours**.\n4.3 La suppression est refusée pour les données que la loi oblige à conserver.",
+    "metadata": {
+      "doc_id": "POL-PRV-008",
+      "title": "Politique de protection des données personnelles",
+      "file_type": "md",
+      "source_file": "POL-PRV-008_donnees_personnelles.md",
+      "section_title": "4. Droits des personnes (LGPD)"
+    }
+  },
+  {
+    "text": "5.1 Le vendeur reçoit uniquement les données nécessaires à l'expédition.\n5.2 Les transporteurs reçoivent le nom, l'adresse et le téléphone du destinataire.\n5.3 Les données ne sont jamais vendues à des tiers.",
+    "metadata": {
+      "doc_id": "POL-PRV-008",
+      "title": "Politique de protection des données personnelles",
+      "file_type": "md",
+      "source_file": "POL-PRV-008_donnees_personnelles.md",
+      "section_title": "5. Partage des données"
+    }
+  },
+  {
+    "text": "6.1 Les analyses de données utilisent des identifiants anonymisés ; aucune donnée directement identifiante n'est exposée aux outils d'analyse.",
+    "metadata": {
+      "doc_id": "POL-PRV-008",
+      "title": "Politique de protection des données personnelles",
+      "file_type": "md",
+      "source_file": "POL-PRV-008_donnees_personnelles.md",
+      "section_title": "6. Analyse et statistiques"
+    }
+  },
+  {
+    "text": "7.1 En cas de fuite de données, les personnes concernées sont informées sous 72 heures.",
+    "metadata": {
+      "doc_id": "POL-PRV-008",
+      "title": "Politique de protection des données personnelles",
+      "file_type": "md",
+      "source_file": "POL-PRV-008_donnees_personnelles.md",
+      "section_title": "7. Incident de sécurité"
+    }
+  },
+  {
+    "text": "1.1 Un remboursement est émis lorsqu'une commande est annulée, retournée conformément à POL-RET-001, ou non livrée selon POL-DEL-003.\n1.2 Le remboursement porte sur le prix du produit. Les frais de livraison initiaux sont remboursés dans les cas listés en 3.",
+    "metadata": {
+      "doc_id": "POL-REF-002",
+      "title": "Politique de remboursement",
+      "file_type": "md",
+      "source_file": "POL-REF-002_remboursement.md",
+      "section_title": "1. Principe"
+    }
+  },
+  {
+    "text": "2.1 Le remboursement est déclenché dans un délai maximal de **10 jours ouvrés** après la validation du retour par le vendeur.\n2.2 Pour une commande annulée avant expédition, le remboursement est déclenché sous 3 jours ouvrés.\n2.3 Le délai effectif d'arrivée des fonds dépend du moyen de paiement (section 4).",
+    "metadata": {
+      "doc_id": "POL-REF-002",
+      "title": "Politique de remboursement",
+      "file_type": "md",
+      "source_file": "POL-REF-002_remboursement.md",
+      "section_title": "2. Délais"
+    }
+  },
+  {
+    "text": "3.1 Les frais de livraison sont remboursés : en cas d'annulation avant expédition ; en cas de produit défectueux ou non conforme ; en cas de livraison non effectuée.\n3.2 Les frais de livraison ne sont pas remboursés lorsque le client se rétracte après une livraison conforme, sauf si la rétractation intervient dans le délai de 7 jours (frais d'expédition initiaux remboursés).",
+    "metadata": {
+      "doc_id": "POL-REF-002",
+      "title": "Politique de remboursement",
+      "file_type": "md",
+      "source_file": "POL-REF-002_remboursement.md",
+      "section_title": "3. Remboursement des frais de livraison"
+    }
+  },
+  {
+    "text": "4.1 **Carte de crédit** : remboursement sur la même carte. Le crédit apparaît sur la facture dans un délai d'un à deux cycles de facturation.\n4.2 **Carte de débit** : remboursement sur le compte sous 5 à 10 jours ouvrés.\n4.3 **Boleto bancaire** : virement bancaire. Le client doit fournir ses coordonnées bancaires dans un délai de 15 jours ; sans réponse, un avoir est créé.\n4.4 **Voucher / avoir** : le montant est recrédité sous forme d'avoir, valable 12 mois.",
+    "metadata": {
+      "doc_id": "POL-REF-002",
+      "title": "Politique de remboursement",
+      "file_type": "md",
+      "source_file": "POL-REF-002_remboursement.md",
+      "section_title": "4. Moyen de remboursement selon le paiement"
+    }
+  },
+  {
+    "text": "5.1 Pour un paiement en plusieurs échéances, le remboursement est réparti sur les échéances déjà prélevées ; les échéances à venir sont annulées.",
+    "metadata": {
+      "doc_id": "POL-REF-002",
+      "title": "Politique de remboursement",
+      "file_type": "md",
+      "source_file": "POL-REF-002_remboursement.md",
+      "section_title": "5. Paiement en plusieurs fois"
+    }
+  },
+  {
+    "text": "6.1 Si le client conteste le montant remboursé, il peut ouvrir une réclamation auprès du service client dans un délai de 30 jours.",
+    "metadata": {
+      "doc_id": "POL-REF-002",
+      "title": "Politique de remboursement",
+      "file_type": "md",
+      "source_file": "POL-REF-002_remboursement.md",
+      "section_title": "6. Litiges"
+    }
+  },
+  {
+    "text": "1.1 Cette politique décrit les conditions dans lesquelles un client peut retourner un produit acheté sur la marketplace.\n1.2 Elle s'applique à toutes les commandes passées sur la plateforme, quel que soit le vendeur.",
+    "metadata": {
+      "doc_id": "POL-RET-001",
+      "title": "Politique de retour et de rétractation",
+      "file_type": "md",
+      "source_file": "POL-RET-001_retours_retractation.md",
+      "section_title": "1. Objet"
+    }
+  },
+  {
+    "text": "2.1 Le client dispose de **7 jours calendaires** à compter de la réception du produit pour exercer son droit de rétractation, sans avoir à donner de motif.\n2.2 La demande est faite depuis l'espace client (rubrique « Mes commandes » > « Retourner un produit »).\n2.3 Passé ce délai de 7 jours, le retour n'est accepté que dans les cas prévus à la section 4 (produit défectueux ou non conforme).",
+    "metadata": {
+      "doc_id": "POL-RET-001",
+      "title": "Politique de retour et de rétractation",
+      "file_type": "md",
+      "source_file": "POL-RET-001_retours_retractation.md",
+      "section_title": "2. Droit de rétractation"
+    }
+  },
+  {
+    "text": "3.1 Le produit doit être renvoyé dans son emballage d'origine, avec ses accessoires et sa facture.\n3.2 Le produit ne doit pas présenter de traces d'usage au-delà d'un simple essai.\n3.3 **Frais de retour** : en cas de rétractation dans les 7 jours, les frais de retour sont pris en charge par la plateforme (étiquette prépayée).\n3.4 Le client dispose de 10 jours après l'accord de retour pour expédier le colis.",
+    "metadata": {
+      "doc_id": "POL-RET-001",
+      "title": "Politique de retour et de rétractation",
+      "file_type": "md",
+      "source_file": "POL-RET-001_retours_retractation.md",
+      "section_title": "3. Conditions du retour"
+    }
+  },
+  {
+    "text": "4.1 Si le produit est défectueux, endommagé à la livraison ou différent de la description, le retour est gratuit pour le client.\n4.2 Le client doit signaler le problème avec photos dans les délais fixés par la politique de garantie (POL-WAR-004).",
+    "metadata": {
+      "doc_id": "POL-RET-001",
+      "title": "Politique de retour et de rétractation",
+      "file_type": "md",
+      "source_file": "POL-RET-001_retours_retractation.md",
+      "section_title": "4. Produit défectueux ou non conforme"
+    }
+  },
+  {
+    "text": "5.1 Produits personnalisés ou fabriqués sur mesure.\n5.2 Produits périssables ou alimentaires.\n5.3 Produits d'hygiène et de santé dont le scellé a été ouvert.\n5.4 Contenus numériques téléchargés ou activés.",
+    "metadata": {
+      "doc_id": "POL-RET-001",
+      "title": "Politique de retour et de rétractation",
+      "file_type": "md",
+      "source_file": "POL-RET-001_retours_retractation.md",
+      "section_title": "5. Produits exclus du droit de rétractation"
+    }
+  },
+  {
+    "text": "6.1 Le vendeur dispose de 5 jours ouvrés pour inspecter le produit.\n6.2 Si le retour est conforme, le remboursement est déclenché selon la politique POL-REF-002.\n6.3 Si le retour n'est pas conforme (produit usagé, incomplet), le client en est informé et le produit lui est renvoyé à ses frais.",
+    "metadata": {
+      "doc_id": "POL-RET-001",
+      "title": "Politique de retour et de rétractation",
+      "file_type": "md",
+      "source_file": "POL-RET-001_retours_retractation.md",
+      "section_title": "6. Après réception du retour"
+    }
+  },
+  {
+    "text": "1.1 Après la livraison, le client reçoit un questionnaire de satisfaction par e-mail.\n1.2 L'avis comprend une **note de 1 à 5** et un commentaire facultatif (titre et message).\n1.3 Le client peut déposer son avis dans un délai de 30 jours après l'envoi du questionnaire.",
+    "metadata": {
+      "doc_id": "POL-REV-006",
+      "title": "Politique de modération des avis clients",
+      "file_type": "md",
+      "source_file": "POL-REV-006_moderation_avis.md",
+      "section_title": "1. Collecte des avis"
+    }
+  },
+  {
+    "text": "2.1 Les avis authentiques ne sont jamais supprimés au seul motif qu'ils sont négatifs.\n2.2 Seuls les clients ayant reçu leur commande peuvent publier un avis.",
+    "metadata": {
+      "doc_id": "POL-REV-006",
+      "title": "Politique de modération des avis clients",
+      "file_type": "md",
+      "source_file": "POL-REV-006_moderation_avis.md",
+      "section_title": "2. Principes"
+    }
+  },
+  {
+    "text": "3.1 Propos injurieux, discriminatoires ou diffamatoires.\n3.2 Données personnelles (nom complet, adresse, téléphone, e-mail).\n3.3 Contenu publicitaire, liens externes ou avis sans rapport avec le produit.\n3.4 Avis rédigés par le vendeur ou en échange d'une contrepartie.",
+    "metadata": {
+      "doc_id": "POL-REV-006",
+      "title": "Politique de modération des avis clients",
+      "file_type": "md",
+      "source_file": "POL-REV-006_moderation_avis.md",
+      "section_title": "3. Contenus supprimés"
+    }
+  },
+  {
+    "text": "4.1 Le vendeur peut signaler un avis dans un délai de 7 jours après sa publication.\n4.2 L'équipe qualité traite le signalement sous 5 jours ouvrés.\n4.3 La décision est notifiée au vendeur et, en cas de suppression, au client.",
+    "metadata": {
+      "doc_id": "POL-REV-006",
+      "title": "Politique de modération des avis clients",
+      "file_type": "md",
+      "source_file": "POL-REV-006_moderation_avis.md",
+      "section_title": "4. Procédure de signalement"
+    }
+  },
+  {
+    "text": "5.1 Le vendeur peut publier une réponse publique sous 7 jours.\n5.2 La réponse doit rester courtoise et factuelle.",
+    "metadata": {
+      "doc_id": "POL-REV-006",
+      "title": "Politique de modération des avis clients",
+      "file_type": "md",
+      "source_file": "POL-REV-006_moderation_avis.md",
+      "section_title": "5. Réponse du vendeur"
+    }
+  },
+  {
+    "text": "6.1 Les notes alimentent la note moyenne du vendeur (POL-SEL-005, section 4).\n6.2 Une note de 1 ou 2 déclenche un contact proactif du service client sous 48 heures.",
+    "metadata": {
+      "doc_id": "POL-REV-006",
+      "title": "Politique de modération des avis clients",
+      "file_type": "md",
+      "source_file": "POL-REV-006_moderation_avis.md",
+      "section_title": "6. Utilisation des notes"
+    }
+  },
+  {
+    "text": "1.1 Tout vendeur doit fournir une identité légale, une adresse et un compte bancaire valides.\n1.2 Le vendeur est responsable de l'exactitude des fiches produits (description, photos, dimensions, poids).",
+    "metadata": {
+      "doc_id": "POL-SEL-005",
+      "title": "Règles applicables aux vendeurs de la marketplace",
+      "file_type": "md",
+      "source_file": "POL-SEL-005_regles_vendeurs.md",
+      "section_title": "1. Inscription"
+    }
+  },
+  {
+    "text": "2.1 La plateforme prélève une commission de **16 %** sur le prix de chaque produit vendu, hors frais de livraison.\n2.2 Le versement au vendeur est effectué 14 jours après la confirmation de livraison.",
+    "metadata": {
+      "doc_id": "POL-SEL-005",
+      "title": "Règles applicables aux vendeurs de la marketplace",
+      "file_type": "md",
+      "source_file": "POL-SEL-005_regles_vendeurs.md",
+      "section_title": "2. Commission"
+    }
+  },
+  {
+    "text": "3.1 Le vendeur doit remettre le colis au transporteur dans un délai de **3 jours ouvrés** après l'approbation du paiement.\n3.2 La date limite de remise au transporteur est indiquée dans la commande.\n3.3 Une remise tardive constitue un manquement.",
+    "metadata": {
+      "doc_id": "POL-SEL-005",
+      "title": "Règles applicables aux vendeurs de la marketplace",
+      "file_type": "md",
+      "source_file": "POL-SEL-005_regles_vendeurs.md",
+      "section_title": "3. Délai d'expédition"
+    }
+  },
+  {
+    "text": "4.1 La note moyenne d'un vendeur, calculée sur ses 90 derniers jours, doit rester supérieure ou égale à **3,5 sur 5**.\n4.2 Le taux d'annulation à l'initiative du vendeur doit rester inférieur à 5 %.",
+    "metadata": {
+      "doc_id": "POL-SEL-005",
+      "title": "Règles applicables aux vendeurs de la marketplace",
+      "file_type": "md",
+      "source_file": "POL-SEL-005_regles_vendeurs.md",
+      "section_title": "4. Qualité de service"
+    }
+  },
+  {
+    "text": "5.1 **Premier manquement** : avertissement écrit.\n5.2 **Trois manquements en 90 jours** : suspension temporaire de 14 jours.\n5.3 **Note moyenne inférieure à 3,0 pendant 60 jours** : suspension de l'accès aux promotions.\n5.4 Fraude avérée (faux produits, fausses livraisons) : exclusion définitive et retenue des fonds.",
+    "metadata": {
+      "doc_id": "POL-SEL-005",
+      "title": "Règles applicables aux vendeurs de la marketplace",
+      "file_type": "md",
+      "source_file": "POL-SEL-005_regles_vendeurs.md",
+      "section_title": "5. Sanctions"
+    }
+  },
+  {
+    "text": "6.1 Le vendeur est responsable des produits défectueux ou non conformes (POL-WAR-004) et supporte les frais de réexpédition associés.\n6.2 Le vendeur répond aux avis clients sous 7 jours (POL-REV-006).",
+    "metadata": {
+      "doc_id": "POL-SEL-005",
+      "title": "Règles applicables aux vendeurs de la marketplace",
+      "file_type": "md",
+      "source_file": "POL-SEL-005_regles_vendeurs.md",
+      "section_title": "6. Responsabilité en cas de litige"
+    }
+  },
+  {
+    "text": "1.1 Tout produit bénéficie d'une garantie contre les vices et défauts de conformité.\n1.2 Le délai pour signaler un défaut est de **30 jours** pour les produits non durables (consommables, textile, cosmétiques) et de **90 jours** pour les produits durables (électroménager, électronique, meubles), à compter de la réception.\n1.3 Pour un défaut caché, le délai court à partir de la découverte du défaut.",
+    "metadata": {
+      "doc_id": "POL-WAR-004",
+      "title": "Politique de garantie et de service après-vente",
+      "file_type": "md",
+      "source_file": "POL-WAR-004_garantie_sav.md",
+      "section_title": "1. Garantie légale"
+    }
+  },
+  {
+    "text": "2.1 Certains vendeurs proposent une garantie commerciale supplémentaire, indiquée sur la fiche produit.\n2.2 La garantie commerciale s'ajoute à la garantie légale et ne la remplace pas.",
+    "metadata": {
+      "doc_id": "POL-WAR-004",
+      "title": "Politique de garantie et de service après-vente",
+      "file_type": "md",
+      "source_file": "POL-WAR-004_garantie_sav.md",
+      "section_title": "2. Garantie commerciale"
+    }
+  },
+  {
+    "text": "3.1 Le client ouvre une demande depuis « Mes commandes » en joignant des photos ou une vidéo du défaut.\n3.2 Le vendeur répond sous 48 heures ouvrées.\n3.3 Le vendeur dispose de **30 jours** pour réparer le produit à compter de la demande.",
+    "metadata": {
+      "doc_id": "POL-WAR-004",
+      "title": "Politique de garantie et de service après-vente",
+      "file_type": "md",
+      "source_file": "POL-WAR-004_garantie_sav.md",
+      "section_title": "3. Procédure de réclamation"
+    }
+  },
+  {
+    "text": "4.1 Si le défaut n'est pas corrigé dans le délai de 30 jours, le client choisit : (a) le remplacement par un produit identique, (b) le remboursement intégral (POL-REF-002), ou (c) une réduction proportionnelle du prix.\n4.2 Pour un produit essentiel ou si la réparation altère sa valeur, le client peut exiger directement l'une des trois solutions.",
+    "metadata": {
+      "doc_id": "POL-WAR-004",
+      "title": "Politique de garantie et de service après-vente",
+      "file_type": "md",
+      "source_file": "POL-WAR-004_garantie_sav.md",
+      "section_title": "4. Solutions proposées"
+    }
+  },
+  {
+    "text": "5.1 Dommages causés par une mauvaise utilisation, une chute ou une modification du produit.\n5.2 Usure normale.\n5.3 Produit réparé par un tiers non autorisé.",
+    "metadata": {
+      "doc_id": "POL-WAR-004",
+      "title": "Politique de garantie et de service après-vente",
+      "file_type": "md",
+      "source_file": "POL-WAR-004_garantie_sav.md",
+      "section_title": "5. Exclusions"
+    }
+  },
+  {
+    "text": "6.1 En cas de désaccord avec le vendeur, le client peut demander une médiation de la plateforme dans un délai de 15 jours.",
+    "metadata": {
+      "doc_id": "POL-WAR-004",
+      "title": "Politique de garantie et de service après-vente",
+      "file_type": "md",
+      "source_file": "POL-WAR-004_garantie_sav.md",
+      "section_title": "6. Escalade"
+    }
+  }
+]

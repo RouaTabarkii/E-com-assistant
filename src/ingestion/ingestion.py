@@ -45,7 +45,6 @@ def split_sections(body):
 
 
 def load_markdown(file_path):
-    """Renvoie le document complet sous forme d'un seul dictionnaire."""
     path = Path(file_path)
     meta, body = read_front_matter(path)
     sections = split_sections(body)
