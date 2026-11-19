@@ -7,14 +7,15 @@
 # Environment variables
 .env
 .env.*
-
+/venv
 # Python
 __pycache__/
 *.py[cod]
-
+/src/olistiq.egg-info
 # IDE
 .vscode/
 .idea/
 
 
 data/olist/
+*.zip

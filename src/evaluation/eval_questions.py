@@ -13,7 +13,7 @@ COLONNES = [
     "sql_reference", "passages_reference", "reponse_attendue", "notes",
 ]
 
-OUT = Path("data/eval/eval_questions.csv")
+OUT = Path("data\eval\eval_questions.csv")
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 with open(OUT, "w", newline="", encoding="utf-8-sig") as f:

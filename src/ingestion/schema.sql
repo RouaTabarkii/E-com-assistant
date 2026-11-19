@@ -26,9 +26,8 @@ ALTER TABLE order_items
 ALTER TABLE order_payments
     ADD FOREIGN KEY (order_id) REFERENCES orders(order_id);
 
--- ORDER REVIEWS
+-- ORDER REVIEWS (no PK — review_id has duplicates in raw Olist data)
 ALTER TABLE order_reviews
-    ADD PRIMARY KEY (review_id),
     ADD FOREIGN KEY (order_id) REFERENCES orders(order_id);
 
 -- PRODUCT CATEGORY TRANSLATION
@@ -41,3 +40,4 @@ CREATE INDEX IF NOT EXISTS idx_orders_purchase_ts  ON orders(order_purchase_time
 CREATE INDEX IF NOT EXISTS idx_order_items_product ON order_items(product_id);
 CREATE INDEX IF NOT EXISTS idx_order_items_seller  ON order_items(seller_id);
 CREATE INDEX IF NOT EXISTS idx_reviews_score       ON order_reviews(review_score);
+CREATE INDEX IF NOT EXISTS idx_reviews_id ON order_reviews(review_id);
