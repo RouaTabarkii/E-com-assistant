@@ -1,3 +1,12 @@
+"""Indexation des politiques dans Qdrant : embeddings (bge-m3 par défaut) + métadonnées.
+
+    python src/ingestion/index_policies.py                       # bge-m3, Qdrant sur localhost:6333
+    python src/ingestion/index_policies.py --model intfloat/multilingual-e5-base --collection policies_e5
+    python src/ingestion/index_policies.py --qdrant-path data/qdrant   # sans serveur (fichiers locaux)
+
+Une collection par modèle (ex. `policies` pour bge-m3, `policies_e5`) permet de comparer
+les modèles lors de l'évaluation de la récupération sans réindexer à chaque fois.
+"""
 import argparse
 import json
 import sys
@@ -23,7 +32,10 @@ def build_payload(chunk: dict, index: int) -> dict:
     m = chunk["metadata"]
     return {
         "text": chunk["text"],  # texte original, utilisé pour les citations
-        "chunk_id": f"{m.get('doc_id', '')}#{index}",
+        "chunk_id": m.get("chunk_id") or f"{m.get('doc_id', '')}#{index}",
+        "citation": m.get("citation", ""),
+        "section_number": m.get("section_number", ""),
+        "part": m.get("part", 1),
         "doc_id": m.get("doc_id", ""),
         "title": m.get("title", ""),
         "doc_type": m.get("doc_type", ""),
@@ -66,7 +78,7 @@ def index_policies(model_name: str, collection: str, host: str, port: int,
             payload=payload,
         ))
     client.upsert(collection_name=collection, points=points)
-    print(f" {len(points)} chunks indexés dans '{collection}' (modèle {model_name}, dim {dim})")
+    print(f"✅ {len(points)} chunks indexés dans '{collection}' (modèle {model_name}, dim {dim})")
     return client
 
 
