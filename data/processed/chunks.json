@@ -4,9 +4,24 @@
     "metadata": {
       "doc_id": "POL-CAN-009",
       "title": "Politique d'annulation de commande",
+      "doc_type": "annulation",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-CAN-009_annulation_commandes.md",
-      "section_title": "1. Annulation par le client"
+      "section_title": "1. Annulation par le client",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-CAN-009#s1",
+      "citation": "[POL-CAN-009 v1.0, § 1 Annulation par le client]"
     }
   },
   {
@@ -14,9 +29,23 @@
     "metadata": {
       "doc_id": "POL-CAN-009",
       "title": "Politique d'annulation de commande",
+      "doc_type": "annulation",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-CAN-009_annulation_commandes.md",
-      "section_title": "2. Commande déjà expédiée"
+      "section_title": "2. Commande déjà expédiée",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-CAN-009#s2",
+      "citation": "[POL-CAN-009 v1.0, § 2 Commande déjà expédiée]"
     }
   },
   {
@@ -24,9 +53,24 @@
     "metadata": {
       "doc_id": "POL-CAN-009",
       "title": "Politique d'annulation de commande",
+      "doc_type": "annulation",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-CAN-009_annulation_commandes.md",
-      "section_title": "3. Annulation par le vendeur"
+      "section_title": "3. Annulation par le vendeur",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-CAN-009#s3",
+      "citation": "[POL-CAN-009 v1.0, § 3 Annulation par le vendeur]"
     }
   },
   {
@@ -34,9 +78,24 @@
     "metadata": {
       "doc_id": "POL-CAN-009",
       "title": "Politique d'annulation de commande",
+      "doc_type": "annulation",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-CAN-009_annulation_commandes.md",
-      "section_title": "4. Annulation automatique"
+      "section_title": "4. Annulation automatique",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-CAN-009#s4",
+      "citation": "[POL-CAN-009 v1.0, § 4 Annulation automatique]"
     }
   },
   {
@@ -44,9 +103,22 @@
     "metadata": {
       "doc_id": "POL-CAN-009",
       "title": "Politique d'annulation de commande",
+      "doc_type": "annulation",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-CAN-009_annulation_commandes.md",
-      "section_title": "5. Notification"
+      "section_title": "5. Notification",
+      "section_number": "5",
+      "clauses": [
+        "5.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-CAN-009#s5",
+      "citation": "[POL-CAN-009 v1.0, § 5 Notification]"
     }
   },
   {
@@ -54,9 +126,24 @@
     "metadata": {
       "doc_id": "POL-DEL-003",
       "title": "Politique de livraison et de gestion des retards",
+      "doc_type": "livraison",
+      "version": "2.1",
+      "effective_date": "2026-03-01",
+      "language": "fr",
+      "owner": "Logistique",
       "file_type": "md",
       "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "1. Date de livraison estimée"
+      "section_title": "1. Date de livraison estimée",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-DEL-003#s1",
+      "citation": "[POL-DEL-003 v2.1, § 1 Date de livraison estimée]"
     }
   },
   {
@@ -64,29 +151,49 @@
     "metadata": {
       "doc_id": "POL-DEL-003",
       "title": "Politique de livraison et de gestion des retards",
+      "doc_type": "livraison",
+      "version": "2.1",
+      "effective_date": "2026-03-01",
+      "language": "fr",
+      "owner": "Logistique",
       "file_type": "md",
       "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "2. Statuts d'une commande"
+      "section_title": "2. Statuts d'une commande",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-DEL-003#s2",
+      "citation": "[POL-DEL-003 v2.1, § 2 Statuts d'une commande]"
     }
   },
   {
-    "text": "3.1 **Retard de 1 à 7 jours** : le client reçoit un bon de réduction égal aux frais de livraison payés, utilisable sur sa prochaine commande.\n3.2 **Retard de plus de 7 jours** : le client peut annuler la commande et obtenir un remboursement complet selon POL-REF-002.\n3.3 **Retard de plus de 15 jours** : en plus du remboursement ou de la livraison, le client reçoit un bon d'achat de **10 %** de la valeur de la commande.",
+    "text": "3.1 **Retard de 1 à 7 jours** : le client reçoit un bon de réduction égal aux frais de livraison payés, utilisable sur sa prochaine commande.\n3.2 **Retard de plus de 7 jours** : le client peut annuler la commande et obtenir un remboursement complet selon POL-REF-002.\n3.3 **Retard de plus de 15 jours** : en plus du remboursement ou de la livraison, le client reçoit un bon d'achat de **10 %** de la valeur de la commande.\n3.4 Les compensations ne sont pas cumulables entre elles : le palier le plus favorable s'applique.",
     "metadata": {
       "doc_id": "POL-DEL-003",
       "title": "Politique de livraison et de gestion des retards",
+      "doc_type": "livraison",
+      "version": "2.1",
+      "effective_date": "2026-03-01",
+      "language": "fr",
+      "owner": "Logistique",
       "file_type": "md",
       "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "3. Compensation en cas de retard"
-    }
-  },
-  {
-    "text": "3.4 Les compensations ne sont pas cumulables entre elles : le palier le plus favorable s'applique.",
-    "metadata": {
-      "doc_id": "POL-DEL-003",
-      "title": "Politique de livraison et de gestion des retards",
-      "file_type": "md",
-      "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "3. Compensation en cas de retard"
+      "section_title": "3. Compensation en cas de retard",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-DEL-003#s3",
+      "citation": "[POL-DEL-003 v2.1, § 3 Compensation en cas de retard]"
     }
   },
   {
@@ -94,9 +201,23 @@
     "metadata": {
       "doc_id": "POL-DEL-003",
       "title": "Politique de livraison et de gestion des retards",
+      "doc_type": "livraison",
+      "version": "2.1",
+      "effective_date": "2026-03-01",
+      "language": "fr",
+      "owner": "Logistique",
       "file_type": "md",
       "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "4. Colis perdu"
+      "section_title": "4. Colis perdu",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-DEL-003#s4",
+      "citation": "[POL-DEL-003 v2.1, § 4 Colis perdu]"
     }
   },
   {
@@ -104,9 +225,23 @@
     "metadata": {
       "doc_id": "POL-DEL-003",
       "title": "Politique de livraison et de gestion des retards",
+      "doc_type": "livraison",
+      "version": "2.1",
+      "effective_date": "2026-03-01",
+      "language": "fr",
+      "owner": "Logistique",
       "file_type": "md",
       "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "5. Adresse incorrecte ou client absent"
+      "section_title": "5. Adresse incorrecte ou client absent",
+      "section_number": "5",
+      "clauses": [
+        "5.1",
+        "5.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-DEL-003#s5",
+      "citation": "[POL-DEL-003 v2.1, § 5 Adresse incorrecte ou client absent]"
     }
   },
   {
@@ -114,9 +249,22 @@
     "metadata": {
       "doc_id": "POL-DEL-003",
       "title": "Politique de livraison et de gestion des retards",
+      "doc_type": "livraison",
+      "version": "2.1",
+      "effective_date": "2026-03-01",
+      "language": "fr",
+      "owner": "Logistique",
       "file_type": "md",
       "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "6. Produit endommagé à la livraison"
+      "section_title": "6. Produit endommagé à la livraison",
+      "section_number": "6",
+      "clauses": [
+        "6.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-DEL-003#s6",
+      "citation": "[POL-DEL-003 v2.1, § 6 Produit endommagé à la livraison]"
     }
   },
   {
@@ -124,9 +272,22 @@
     "metadata": {
       "doc_id": "POL-DEL-003",
       "title": "Politique de livraison et de gestion des retards",
+      "doc_type": "livraison",
+      "version": "2.1",
+      "effective_date": "2026-03-01",
+      "language": "fr",
+      "owner": "Logistique",
       "file_type": "md",
       "source_file": "POL-DEL-003_livraison_retards.md",
-      "section_title": "7. Obligations du vendeur"
+      "section_title": "7. Obligations du vendeur",
+      "section_number": "7",
+      "clauses": [
+        "7.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-DEL-003#s7",
+      "citation": "[POL-DEL-003 v2.1, § 7 Obligations du vendeur]"
     }
   },
   {
@@ -134,9 +295,26 @@
     "metadata": {
       "doc_id": "POL-PAY-007",
       "title": "Politique de paiement et de paiement en plusieurs fois",
+      "doc_type": "paiement",
+      "version": "1.2",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-PAY-007_paiements.md",
-      "section_title": "1. Moyens de paiement acceptés"
+      "section_title": "1. Moyens de paiement acceptés",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PAY-007#s1",
+      "citation": "[POL-PAY-007 v1.2, § 1 Moyens de paiement acceptés]"
     }
   },
   {
@@ -144,9 +322,25 @@
     "metadata": {
       "doc_id": "POL-PAY-007",
       "title": "Politique de paiement et de paiement en plusieurs fois",
+      "doc_type": "paiement",
+      "version": "1.2",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-PAY-007_paiements.md",
-      "section_title": "2. Paiement en plusieurs fois"
+      "section_title": "2. Paiement en plusieurs fois",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PAY-007#s2",
+      "citation": "[POL-PAY-007 v1.2, § 2 Paiement en plusieurs fois]"
     }
   },
   {
@@ -154,9 +348,24 @@
     "metadata": {
       "doc_id": "POL-PAY-007",
       "title": "Politique de paiement et de paiement en plusieurs fois",
+      "doc_type": "paiement",
+      "version": "1.2",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-PAY-007_paiements.md",
-      "section_title": "3. Boleto bancaire"
+      "section_title": "3. Boleto bancaire",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PAY-007#s3",
+      "citation": "[POL-PAY-007 v1.2, § 3 Boleto bancaire]"
     }
   },
   {
@@ -164,9 +373,23 @@
     "metadata": {
       "doc_id": "POL-PAY-007",
       "title": "Politique de paiement et de paiement en plusieurs fois",
+      "doc_type": "paiement",
+      "version": "1.2",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-PAY-007_paiements.md",
-      "section_title": "4. Vouchers et avoirs"
+      "section_title": "4. Vouchers et avoirs",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PAY-007#s4",
+      "citation": "[POL-PAY-007 v1.2, § 4 Vouchers et avoirs]"
     }
   },
   {
@@ -174,9 +397,23 @@
     "metadata": {
       "doc_id": "POL-PAY-007",
       "title": "Politique de paiement et de paiement en plusieurs fois",
+      "doc_type": "paiement",
+      "version": "1.2",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-PAY-007_paiements.md",
-      "section_title": "5. Sécurité"
+      "section_title": "5. Sécurité",
+      "section_number": "5",
+      "clauses": [
+        "5.1",
+        "5.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PAY-007#s5",
+      "citation": "[POL-PAY-007 v1.2, § 5 Sécurité]"
     }
   },
   {
@@ -184,9 +421,22 @@
     "metadata": {
       "doc_id": "POL-PAY-007",
       "title": "Politique de paiement et de paiement en plusieurs fois",
+      "doc_type": "paiement",
+      "version": "1.2",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-PAY-007_paiements.md",
-      "section_title": "6. Remboursements"
+      "section_title": "6. Remboursements",
+      "section_number": "6",
+      "clauses": [
+        "6.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PAY-007#s6",
+      "citation": "[POL-PAY-007 v1.2, § 6 Remboursements]"
     }
   },
   {
@@ -194,9 +444,24 @@
     "metadata": {
       "doc_id": "POL-PRV-008",
       "title": "Politique de protection des données personnelles",
+      "doc_type": "donnees_personnelles",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Délégué à la protection des données",
       "file_type": "md",
       "source_file": "POL-PRV-008_donnees_personnelles.md",
-      "section_title": "1. Données collectées"
+      "section_title": "1. Données collectées",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PRV-008#s1",
+      "citation": "[POL-PRV-008 v1.0, § 1 Données collectées]"
     }
   },
   {
@@ -204,9 +469,24 @@
     "metadata": {
       "doc_id": "POL-PRV-008",
       "title": "Politique de protection des données personnelles",
+      "doc_type": "donnees_personnelles",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Délégué à la protection des données",
       "file_type": "md",
       "source_file": "POL-PRV-008_donnees_personnelles.md",
-      "section_title": "2. Finalités"
+      "section_title": "2. Finalités",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PRV-008#s2",
+      "citation": "[POL-PRV-008 v1.0, § 2 Finalités]"
     }
   },
   {
@@ -214,9 +494,24 @@
     "metadata": {
       "doc_id": "POL-PRV-008",
       "title": "Politique de protection des données personnelles",
+      "doc_type": "donnees_personnelles",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Délégué à la protection des données",
       "file_type": "md",
       "source_file": "POL-PRV-008_donnees_personnelles.md",
-      "section_title": "3. Durée de conservation"
+      "section_title": "3. Durée de conservation",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PRV-008#s3",
+      "citation": "[POL-PRV-008 v1.0, § 3 Durée de conservation]"
     }
   },
   {
@@ -224,9 +519,24 @@
     "metadata": {
       "doc_id": "POL-PRV-008",
       "title": "Politique de protection des données personnelles",
+      "doc_type": "donnees_personnelles",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Délégué à la protection des données",
       "file_type": "md",
       "source_file": "POL-PRV-008_donnees_personnelles.md",
-      "section_title": "4. Droits des personnes (LGPD)"
+      "section_title": "4. Droits des personnes (LGPD)",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PRV-008#s4",
+      "citation": "[POL-PRV-008 v1.0, § 4 Droits des personnes (LGPD)]"
     }
   },
   {
@@ -234,9 +544,24 @@
     "metadata": {
       "doc_id": "POL-PRV-008",
       "title": "Politique de protection des données personnelles",
+      "doc_type": "donnees_personnelles",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Délégué à la protection des données",
       "file_type": "md",
       "source_file": "POL-PRV-008_donnees_personnelles.md",
-      "section_title": "5. Partage des données"
+      "section_title": "5. Partage des données",
+      "section_number": "5",
+      "clauses": [
+        "5.1",
+        "5.2",
+        "5.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PRV-008#s5",
+      "citation": "[POL-PRV-008 v1.0, § 5 Partage des données]"
     }
   },
   {
@@ -244,9 +569,22 @@
     "metadata": {
       "doc_id": "POL-PRV-008",
       "title": "Politique de protection des données personnelles",
+      "doc_type": "donnees_personnelles",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Délégué à la protection des données",
       "file_type": "md",
       "source_file": "POL-PRV-008_donnees_personnelles.md",
-      "section_title": "6. Analyse et statistiques"
+      "section_title": "6. Analyse et statistiques",
+      "section_number": "6",
+      "clauses": [
+        "6.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PRV-008#s6",
+      "citation": "[POL-PRV-008 v1.0, § 6 Analyse et statistiques]"
     }
   },
   {
@@ -254,9 +592,22 @@
     "metadata": {
       "doc_id": "POL-PRV-008",
       "title": "Politique de protection des données personnelles",
+      "doc_type": "donnees_personnelles",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Délégué à la protection des données",
       "file_type": "md",
       "source_file": "POL-PRV-008_donnees_personnelles.md",
-      "section_title": "7. Incident de sécurité"
+      "section_title": "7. Incident de sécurité",
+      "section_number": "7",
+      "clauses": [
+        "7.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-PRV-008#s7",
+      "citation": "[POL-PRV-008 v1.0, § 7 Incident de sécurité]"
     }
   },
   {
@@ -264,9 +615,23 @@
     "metadata": {
       "doc_id": "POL-REF-002",
       "title": "Politique de remboursement",
+      "doc_type": "remboursement",
+      "version": "1.3",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-REF-002_remboursement.md",
-      "section_title": "1. Principe"
+      "section_title": "1. Principe",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REF-002#s1",
+      "citation": "[POL-REF-002 v1.3, § 1 Principe]"
     }
   },
   {
@@ -274,9 +639,24 @@
     "metadata": {
       "doc_id": "POL-REF-002",
       "title": "Politique de remboursement",
+      "doc_type": "remboursement",
+      "version": "1.3",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-REF-002_remboursement.md",
-      "section_title": "2. Délais"
+      "section_title": "2. Délais",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REF-002#s2",
+      "citation": "[POL-REF-002 v1.3, § 2 Délais]"
     }
   },
   {
@@ -284,9 +664,23 @@
     "metadata": {
       "doc_id": "POL-REF-002",
       "title": "Politique de remboursement",
+      "doc_type": "remboursement",
+      "version": "1.3",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-REF-002_remboursement.md",
-      "section_title": "3. Remboursement des frais de livraison"
+      "section_title": "3. Remboursement des frais de livraison",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REF-002#s3",
+      "citation": "[POL-REF-002 v1.3, § 3 Remboursement des frais de livraison]"
     }
   },
   {
@@ -294,9 +688,25 @@
     "metadata": {
       "doc_id": "POL-REF-002",
       "title": "Politique de remboursement",
+      "doc_type": "remboursement",
+      "version": "1.3",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-REF-002_remboursement.md",
-      "section_title": "4. Moyen de remboursement selon le paiement"
+      "section_title": "4. Moyen de remboursement selon le paiement",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REF-002#s4",
+      "citation": "[POL-REF-002 v1.3, § 4 Moyen de remboursement selon le paiement]"
     }
   },
   {
@@ -304,9 +714,22 @@
     "metadata": {
       "doc_id": "POL-REF-002",
       "title": "Politique de remboursement",
+      "doc_type": "remboursement",
+      "version": "1.3",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-REF-002_remboursement.md",
-      "section_title": "5. Paiement en plusieurs fois"
+      "section_title": "5. Paiement en plusieurs fois",
+      "section_number": "5",
+      "clauses": [
+        "5.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REF-002#s5",
+      "citation": "[POL-REF-002 v1.3, § 5 Paiement en plusieurs fois]"
     }
   },
   {
@@ -314,9 +737,22 @@
     "metadata": {
       "doc_id": "POL-REF-002",
       "title": "Politique de remboursement",
+      "doc_type": "remboursement",
+      "version": "1.3",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Financier",
       "file_type": "md",
       "source_file": "POL-REF-002_remboursement.md",
-      "section_title": "6. Litiges"
+      "section_title": "6. Litiges",
+      "section_number": "6",
+      "clauses": [
+        "6.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REF-002#s6",
+      "citation": "[POL-REF-002 v1.3, § 6 Litiges]"
     }
   },
   {
@@ -324,9 +760,23 @@
     "metadata": {
       "doc_id": "POL-RET-001",
       "title": "Politique de retour et de rétractation",
+      "doc_type": "retour",
+      "version": "2.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-RET-001_retours_retractation.md",
-      "section_title": "1. Objet"
+      "section_title": "1. Objet",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-RET-001#s1",
+      "citation": "[POL-RET-001 v2.0, § 1 Objet]"
     }
   },
   {
@@ -334,9 +784,24 @@
     "metadata": {
       "doc_id": "POL-RET-001",
       "title": "Politique de retour et de rétractation",
+      "doc_type": "retour",
+      "version": "2.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-RET-001_retours_retractation.md",
-      "section_title": "2. Droit de rétractation"
+      "section_title": "2. Droit de rétractation",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-RET-001#s2",
+      "citation": "[POL-RET-001 v2.0, § 2 Droit de rétractation]"
     }
   },
   {
@@ -344,9 +809,25 @@
     "metadata": {
       "doc_id": "POL-RET-001",
       "title": "Politique de retour et de rétractation",
+      "doc_type": "retour",
+      "version": "2.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-RET-001_retours_retractation.md",
-      "section_title": "3. Conditions du retour"
+      "section_title": "3. Conditions du retour",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-RET-001#s3",
+      "citation": "[POL-RET-001 v2.0, § 3 Conditions du retour]"
     }
   },
   {
@@ -354,9 +835,23 @@
     "metadata": {
       "doc_id": "POL-RET-001",
       "title": "Politique de retour et de rétractation",
+      "doc_type": "retour",
+      "version": "2.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-RET-001_retours_retractation.md",
-      "section_title": "4. Produit défectueux ou non conforme"
+      "section_title": "4. Produit défectueux ou non conforme",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-RET-001#s4",
+      "citation": "[POL-RET-001 v2.0, § 4 Produit défectueux ou non conforme]"
     }
   },
   {
@@ -364,9 +859,25 @@
     "metadata": {
       "doc_id": "POL-RET-001",
       "title": "Politique de retour et de rétractation",
+      "doc_type": "retour",
+      "version": "2.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-RET-001_retours_retractation.md",
-      "section_title": "5. Produits exclus du droit de rétractation"
+      "section_title": "5. Produits exclus du droit de rétractation",
+      "section_number": "5",
+      "clauses": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-RET-001#s5",
+      "citation": "[POL-RET-001 v2.0, § 5 Produits exclus du droit de rétractation]"
     }
   },
   {
@@ -374,9 +885,24 @@
     "metadata": {
       "doc_id": "POL-RET-001",
       "title": "Politique de retour et de rétractation",
+      "doc_type": "retour",
+      "version": "2.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-RET-001_retours_retractation.md",
-      "section_title": "6. Après réception du retour"
+      "section_title": "6. Après réception du retour",
+      "section_number": "6",
+      "clauses": [
+        "6.1",
+        "6.2",
+        "6.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-RET-001#s6",
+      "citation": "[POL-RET-001 v2.0, § 6 Après réception du retour]"
     }
   },
   {
@@ -384,9 +910,24 @@
     "metadata": {
       "doc_id": "POL-REV-006",
       "title": "Politique de modération des avis clients",
+      "doc_type": "avis",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Qualité",
       "file_type": "md",
       "source_file": "POL-REV-006_moderation_avis.md",
-      "section_title": "1. Collecte des avis"
+      "section_title": "1. Collecte des avis",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REV-006#s1",
+      "citation": "[POL-REV-006 v1.0, § 1 Collecte des avis]"
     }
   },
   {
@@ -394,9 +935,23 @@
     "metadata": {
       "doc_id": "POL-REV-006",
       "title": "Politique de modération des avis clients",
+      "doc_type": "avis",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Qualité",
       "file_type": "md",
       "source_file": "POL-REV-006_moderation_avis.md",
-      "section_title": "2. Principes"
+      "section_title": "2. Principes",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REV-006#s2",
+      "citation": "[POL-REV-006 v1.0, § 2 Principes]"
     }
   },
   {
@@ -404,9 +959,25 @@
     "metadata": {
       "doc_id": "POL-REV-006",
       "title": "Politique de modération des avis clients",
+      "doc_type": "avis",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Qualité",
       "file_type": "md",
       "source_file": "POL-REV-006_moderation_avis.md",
-      "section_title": "3. Contenus supprimés"
+      "section_title": "3. Contenus supprimés",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REV-006#s3",
+      "citation": "[POL-REV-006 v1.0, § 3 Contenus supprimés]"
     }
   },
   {
@@ -414,9 +985,24 @@
     "metadata": {
       "doc_id": "POL-REV-006",
       "title": "Politique de modération des avis clients",
+      "doc_type": "avis",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Qualité",
       "file_type": "md",
       "source_file": "POL-REV-006_moderation_avis.md",
-      "section_title": "4. Procédure de signalement"
+      "section_title": "4. Procédure de signalement",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REV-006#s4",
+      "citation": "[POL-REV-006 v1.0, § 4 Procédure de signalement]"
     }
   },
   {
@@ -424,9 +1010,23 @@
     "metadata": {
       "doc_id": "POL-REV-006",
       "title": "Politique de modération des avis clients",
+      "doc_type": "avis",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Qualité",
       "file_type": "md",
       "source_file": "POL-REV-006_moderation_avis.md",
-      "section_title": "5. Réponse du vendeur"
+      "section_title": "5. Réponse du vendeur",
+      "section_number": "5",
+      "clauses": [
+        "5.1",
+        "5.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REV-006#s5",
+      "citation": "[POL-REV-006 v1.0, § 5 Réponse du vendeur]"
     }
   },
   {
@@ -434,9 +1034,23 @@
     "metadata": {
       "doc_id": "POL-REV-006",
       "title": "Politique de modération des avis clients",
+      "doc_type": "avis",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Qualité",
       "file_type": "md",
       "source_file": "POL-REV-006_moderation_avis.md",
-      "section_title": "6. Utilisation des notes"
+      "section_title": "6. Utilisation des notes",
+      "section_number": "6",
+      "clauses": [
+        "6.1",
+        "6.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-REV-006#s6",
+      "citation": "[POL-REV-006 v1.0, § 6 Utilisation des notes]"
     }
   },
   {
@@ -444,9 +1058,23 @@
     "metadata": {
       "doc_id": "POL-SEL-005",
       "title": "Règles applicables aux vendeurs de la marketplace",
+      "doc_type": "vendeur",
+      "version": "1.4",
+      "effective_date": "2026-02-01",
+      "language": "fr",
+      "owner": "Direction Marketplace",
       "file_type": "md",
       "source_file": "POL-SEL-005_regles_vendeurs.md",
-      "section_title": "1. Inscription"
+      "section_title": "1. Inscription",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-SEL-005#s1",
+      "citation": "[POL-SEL-005 v1.4, § 1 Inscription]"
     }
   },
   {
@@ -454,9 +1082,23 @@
     "metadata": {
       "doc_id": "POL-SEL-005",
       "title": "Règles applicables aux vendeurs de la marketplace",
+      "doc_type": "vendeur",
+      "version": "1.4",
+      "effective_date": "2026-02-01",
+      "language": "fr",
+      "owner": "Direction Marketplace",
       "file_type": "md",
       "source_file": "POL-SEL-005_regles_vendeurs.md",
-      "section_title": "2. Commission"
+      "section_title": "2. Commission",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-SEL-005#s2",
+      "citation": "[POL-SEL-005 v1.4, § 2 Commission]"
     }
   },
   {
@@ -464,9 +1106,24 @@
     "metadata": {
       "doc_id": "POL-SEL-005",
       "title": "Règles applicables aux vendeurs de la marketplace",
+      "doc_type": "vendeur",
+      "version": "1.4",
+      "effective_date": "2026-02-01",
+      "language": "fr",
+      "owner": "Direction Marketplace",
       "file_type": "md",
       "source_file": "POL-SEL-005_regles_vendeurs.md",
-      "section_title": "3. Délai d'expédition"
+      "section_title": "3. Délai d'expédition",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-SEL-005#s3",
+      "citation": "[POL-SEL-005 v1.4, § 3 Délai d'expédition]"
     }
   },
   {
@@ -474,9 +1131,23 @@
     "metadata": {
       "doc_id": "POL-SEL-005",
       "title": "Règles applicables aux vendeurs de la marketplace",
+      "doc_type": "vendeur",
+      "version": "1.4",
+      "effective_date": "2026-02-01",
+      "language": "fr",
+      "owner": "Direction Marketplace",
       "file_type": "md",
       "source_file": "POL-SEL-005_regles_vendeurs.md",
-      "section_title": "4. Qualité de service"
+      "section_title": "4. Qualité de service",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-SEL-005#s4",
+      "citation": "[POL-SEL-005 v1.4, § 4 Qualité de service]"
     }
   },
   {
@@ -484,9 +1155,25 @@
     "metadata": {
       "doc_id": "POL-SEL-005",
       "title": "Règles applicables aux vendeurs de la marketplace",
+      "doc_type": "vendeur",
+      "version": "1.4",
+      "effective_date": "2026-02-01",
+      "language": "fr",
+      "owner": "Direction Marketplace",
       "file_type": "md",
       "source_file": "POL-SEL-005_regles_vendeurs.md",
-      "section_title": "5. Sanctions"
+      "section_title": "5. Sanctions",
+      "section_number": "5",
+      "clauses": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-SEL-005#s5",
+      "citation": "[POL-SEL-005 v1.4, § 5 Sanctions]"
     }
   },
   {
@@ -494,9 +1181,23 @@
     "metadata": {
       "doc_id": "POL-SEL-005",
       "title": "Règles applicables aux vendeurs de la marketplace",
+      "doc_type": "vendeur",
+      "version": "1.4",
+      "effective_date": "2026-02-01",
+      "language": "fr",
+      "owner": "Direction Marketplace",
       "file_type": "md",
       "source_file": "POL-SEL-005_regles_vendeurs.md",
-      "section_title": "6. Responsabilité en cas de litige"
+      "section_title": "6. Responsabilité en cas de litige",
+      "section_number": "6",
+      "clauses": [
+        "6.1",
+        "6.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-SEL-005#s6",
+      "citation": "[POL-SEL-005 v1.4, § 6 Responsabilité en cas de litige]"
     }
   },
   {
@@ -504,9 +1205,24 @@
     "metadata": {
       "doc_id": "POL-WAR-004",
       "title": "Politique de garantie et de service après-vente",
+      "doc_type": "garantie",
+      "version": "1.1",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-WAR-004_garantie_sav.md",
-      "section_title": "1. Garantie légale"
+      "section_title": "1. Garantie légale",
+      "section_number": "1",
+      "clauses": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-WAR-004#s1",
+      "citation": "[POL-WAR-004 v1.1, § 1 Garantie légale]"
     }
   },
   {
@@ -514,9 +1230,23 @@
     "metadata": {
       "doc_id": "POL-WAR-004",
       "title": "Politique de garantie et de service après-vente",
+      "doc_type": "garantie",
+      "version": "1.1",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-WAR-004_garantie_sav.md",
-      "section_title": "2. Garantie commerciale"
+      "section_title": "2. Garantie commerciale",
+      "section_number": "2",
+      "clauses": [
+        "2.1",
+        "2.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-WAR-004#s2",
+      "citation": "[POL-WAR-004 v1.1, § 2 Garantie commerciale]"
     }
   },
   {
@@ -524,9 +1254,24 @@
     "metadata": {
       "doc_id": "POL-WAR-004",
       "title": "Politique de garantie et de service après-vente",
+      "doc_type": "garantie",
+      "version": "1.1",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-WAR-004_garantie_sav.md",
-      "section_title": "3. Procédure de réclamation"
+      "section_title": "3. Procédure de réclamation",
+      "section_number": "3",
+      "clauses": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-WAR-004#s3",
+      "citation": "[POL-WAR-004 v1.1, § 3 Procédure de réclamation]"
     }
   },
   {
@@ -534,9 +1279,23 @@
     "metadata": {
       "doc_id": "POL-WAR-004",
       "title": "Politique de garantie et de service après-vente",
+      "doc_type": "garantie",
+      "version": "1.1",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-WAR-004_garantie_sav.md",
-      "section_title": "4. Solutions proposées"
+      "section_title": "4. Solutions proposées",
+      "section_number": "4",
+      "clauses": [
+        "4.1",
+        "4.2"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-WAR-004#s4",
+      "citation": "[POL-WAR-004 v1.1, § 4 Solutions proposées]"
     }
   },
   {
@@ -544,9 +1303,24 @@
     "metadata": {
       "doc_id": "POL-WAR-004",
       "title": "Politique de garantie et de service après-vente",
+      "doc_type": "garantie",
+      "version": "1.1",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-WAR-004_garantie_sav.md",
-      "section_title": "5. Exclusions"
+      "section_title": "5. Exclusions",
+      "section_number": "5",
+      "clauses": [
+        "5.1",
+        "5.2",
+        "5.3"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-WAR-004#s5",
+      "citation": "[POL-WAR-004 v1.1, § 5 Exclusions]"
     }
   },
   {
@@ -554,9 +1328,22 @@
     "metadata": {
       "doc_id": "POL-WAR-004",
       "title": "Politique de garantie et de service après-vente",
+      "doc_type": "garantie",
+      "version": "1.1",
+      "effective_date": "2026-01-01",
+      "language": "fr",
+      "owner": "Service Client",
       "file_type": "md",
       "source_file": "POL-WAR-004_garantie_sav.md",
-      "section_title": "6. Escalade"
+      "section_title": "6. Escalade",
+      "section_number": "6",
+      "clauses": [
+        "6.1"
+      ],
+      "part": 1,
+      "n_parts": 1,
+      "chunk_id": "POL-WAR-004#s6",
+      "citation": "[POL-WAR-004 v1.1, § 6 Escalade]"
     }
   }
 ]
