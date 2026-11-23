@@ -55,7 +55,7 @@ def index_policies(model_name: str, collection: str, host: str, port: int,
 
     print(f"[INFO] Chargement du modèle : {model_name}")
     model = load_model(model_name)
-    dim = model.get_sentence_embedding_dimension()
+    dim = model.get_embedding_dimension()
 
     texts = [build_embedding_text(c) for c in chunks]
     print(f"[INFO] Calcul des embeddings ({len(texts)} textes, dimension {dim})...")

@@ -96,7 +96,7 @@ def load_docx(file_path):
 
 
 
-SECTION_RE = re.compile(r"^\d+\.\s+\S")  # "1. Principe"
+SECTION_RE = re.compile(r"^\d+\.\s+\S") 
 PAGE_NUM_RE = re.compile(r"^(page\s*)?\d+(\s*/\s*\d+)?$", re.IGNORECASE)
 
 
