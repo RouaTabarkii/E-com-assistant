@@ -1,0 +1,1 @@
+2026-11-23 23:43:56,819 | INFO | OK | 338.53ms | 1 rows | SELECT COUNT(*) FROM orders LIMIT 100
