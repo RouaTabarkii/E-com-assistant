@@ -18,4 +18,6 @@ __pycache__/
 
 
 data/olist/
+data/qdrant/
+data/processed/
 *.zip

@@ -96,7 +96,7 @@ def load_docx(file_path):
 
 
 
-SECTION_RE = re.compile(r"^\d+\.\s+\S")  # "1. Principe"
+SECTION_RE = re.compile(r"^\d+\.\s+\S") 
 PAGE_NUM_RE = re.compile(r"^(page\s*)?\d+(\s*/\s*\d+)?$", re.IGNORECASE)
 
 
@@ -163,6 +163,8 @@ def load_all_documents(policies_dir):
     for path in sorted(Path(policies_dir).rglob("*")):
         if not path.is_file():
             continue
+        if path.name.lower().startswith("readme"):
+            continue  # documentation du corpus, pas une politique : ne pas l'indexer
         doc = load_document(path)
         if doc is not None:
             documents.append(doc)
