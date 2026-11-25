@@ -14,8 +14,14 @@ dependencies = [
     "sentence-transformers>=3.0",
     "langchain-text-splitters>=0.2",
     "langgraph>=0.2",
+<<<<<<< HEAD
     "langchain-core>=0.3",
     "langchain-groq>=0.3",
+=======
+    "langchain-anthropic>=0.2",
+    "langchain-core>=0.3",
+    "langchain-groq>=1.2",
+>>>>>>> 82114d5 (feat(agent): working RAG pipeline with correct embedding model (multilingual-e5-small), Qdrant persistent cache, reorganized nodes)
 ]
 
 [project.optional-dependencies]

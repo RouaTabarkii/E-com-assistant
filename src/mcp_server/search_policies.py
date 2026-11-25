@@ -1,9 +1,12 @@
 from qdrant_client import QdrantClient
 from qdrant_client.models import FieldCondition, Filter, MatchValue
-
+import os
 from src.ingestion.embeddings import embed_queries, load_model
 
-client = QdrantClient(url="http://localhost:6333")
+client = QdrantClient(
+    host=os.getenv("QDRANT_HOST", "localhost"),
+    port=int(os.getenv("QDRANT_PORT", 6333)),
+)
 model = load_model()
 
 COLLECTION = "policies"

@@ -13,7 +13,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-DEFAULT_MODEL = "BAAI/bge-m3"
+DEFAULT_MODEL = "intfloat/multilingual-e5-small"
 
 # Conventions propres à chaque famille de modèles.
 #  - bge-m3 : aucun préfixe requis, 1024 dimensions, contexte jusqu'à 8192 tokens.

@@ -18,7 +18,7 @@ services:
 
   app:
     build: .
-    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    command: uvicorn src.web.main:app --host 0.0.0.0 --port 8000
     container_name: olistiq_app
     env_file:
       - .env
@@ -29,6 +29,7 @@ services:
       - "8000:8000"
     volumes:
       - .:/app
+      - hf_cache:/root/.cache/huggingface   # ← add this
 
 
   qdrant:
@@ -42,3 +43,4 @@ services:
 volumes:
   postgres_data:
   qdrant_data:
+  hf_cache:    
