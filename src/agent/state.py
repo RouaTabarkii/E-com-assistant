@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-from typing import TypedDict
-
-class AgentState(TypedDict, total=False):
-    question: str
-    route: str                 
-    passages: list[dict]      
-    answer: str
-    citations: list[dict]      
-    abstained: bool
-=======
 """Shared state that flows through the LangGraph agent."""
 from typing import Annotated, Any
 from typing_extensions import TypedDict
@@ -38,4 +27,3 @@ class AgentState(TypedDict):
 
     # Conversation history
     messages: Annotated[list, add_messages]
->>>>>>> 82114d5 (feat(agent): working RAG pipeline with correct embedding model (multilingual-e5-small), Qdrant persistent cache, reorganized nodes)
