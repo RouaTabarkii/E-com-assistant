@@ -13,9 +13,13 @@ dependencies = [
     "qdrant-client>=1.9",
     "sentence-transformers>=3.0",
     "langchain-text-splitters>=0.2",
+    "langgraph>=0.2",
+    "langchain-core>=0.3",
+    "langchain-groq>=0.3",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
 ]
+
