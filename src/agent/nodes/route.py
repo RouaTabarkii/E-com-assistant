@@ -6,7 +6,18 @@ from src.agent.prompts import ROUTER_PROMPT
 
 def node_route(state: AgentState) -> AgentState:
     """Classify question into sql / docs / both / out_of_scope."""
-    prompt = ROUTER_PROMPT.format(question=state["question"])
+    
+    # Build context from history if available
+    history_context = ""
+    messages = state.get("messages", [])
+    if messages:
+        history_lines = []
+        for msg in messages[-4:]:  # last 2 exchanges
+            role = "User" if msg.type == "human" else "Assistant"
+            history_lines.append(f"{role}: {msg.content[:200]}")
+        history_context = "\n\nConversation history:\n" + "\n".join(history_lines)
+
+    prompt = ROUTER_PROMPT.format(question=state["question"]) + history_context
     response = llm.invoke([HumanMessage(content=prompt)])
     route = response.content.strip().lower()
 

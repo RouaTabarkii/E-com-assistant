@@ -13,11 +13,21 @@ def node_sql_generate(state: AgentState) -> AgentState:
             f"{state['sql_error']}\nPlease fix the query."
         )
 
+    # Add history context for follow-up questions
+    history_context = ""
+    messages = state.get("messages", [])
+    if messages:
+        history_lines = []
+        for msg in messages[-4:]:
+            role = "User" if msg.type == "human" else "Assistant"
+            history_lines.append(f"{role}: {msg.content[:300]}")
+        history_context = "\n\nConversation history (for context):\n" + "\n".join(history_lines)
+
     prompt = SQL_GENERATE_PROMPT.format(
         schema=state["schema_context"],
         question=state["question"],
         error_context=error_context,
-    )
+    ) + history_context
 
     response = llm.invoke([HumanMessage(content=prompt)])
 

@@ -525,3 +525,199 @@ where order_delivered_customer_date is not null
 2026-11-25 23:12:49,880 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-11-25 23:12:56,840 | INFO | HTTP Request: POST http://qdrant:6333/collections/policies/points/query "HTTP/1.1 200 OK"
 2026-11-25 23:12:58,188 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:18:44,565 | INFO | HTTP Request: GET http://qdrant:6333 "HTTP/1.1 200 OK"
+2026-11-26 10:19:26,695 | INFO | No device provided, using cpu
+2026-11-26 10:19:27,251 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 10:19:27,773 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:19:27,775 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-26 10:19:27,777 | INFO | Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+2026-11-26 10:19:27,958 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:19:29,826 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-26 10:19:30,022 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-26 10:19:41,696 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 10:19:42,108 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:20:14,458 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:20:16,164 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:20:16,223 | ERROR | ERROR | select count(*) as order_count
+from orders
+where extract(year from order_purchase_timestamp) = 2017 LIMIT 100 | (psycopg2.errors.UndefinedFunction) function pg_catalog.extract(unknown, text) does not exist
+LINE 3: where extract(year from order_purchase_timestamp) = 2017 LIM...
+              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: select count(*) as order_count
+from orders
+where extract(year from order_purchase_timestamp) = 2017 LIMIT 100]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-11-26 10:20:16,793 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:20:16,950 | INFO | OK | 150.74ms | 1 rows | select count(*) as order_count
+from orders
+where extract(year from order_purchase_timestamp::timestamp) = 2017 LIMIT 100
+2026-11-26 10:20:17,401 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:22:38,093 | INFO | HTTP Request: GET http://qdrant:6333 "HTTP/1.1 200 OK"
+2026-11-26 10:23:18,652 | INFO | No device provided, using cpu
+2026-11-26 10:23:19,268 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 10:23:19,822 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:23:19,824 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-26 10:23:19,828 | INFO | Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+2026-11-26 10:23:20,014 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:23:22,357 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-26 10:23:22,537 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-26 10:23:32,608 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 10:23:32,972 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:24:19,104 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:24:20,335 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:24:20,373 | ERROR | ERROR | select count(*) as delivered_orders_2017
+from orders
+where order_delivered_customer_timestamp is not null
+  and extract(year from order_delivered_customer_timestamp) = 2017 LIMIT 100 | (psycopg2.errors.UndefinedColumn) column "order_delivered_customer_timestamp" does not exist
+LINE 3: where order_delivered_customer_timestamp is not null
+              ^
+
+[SQL: select count(*) as delivered_orders_2017
+from orders
+where order_delivered_customer_timestamp is not null
+  and extract(year from order_delivered_customer_timestamp) = 2017 LIMIT 100]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-11-26 10:24:23,277 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:24:23,318 | ERROR | ERROR | select count(*) as delivered_orders_2017
+from orders
+where order_delivered_customer_timestamp is not null
+  and extract(year from order_delivered_customer_timestamp) = 2017 LIMIT 100 | (psycopg2.errors.UndefinedColumn) column "order_delivered_customer_timestamp" does not exist
+LINE 3: where order_delivered_customer_timestamp is not null
+              ^
+
+[SQL: select count(*) as delivered_orders_2017
+from orders
+where order_delivered_customer_timestamp is not null
+  and extract(year from order_delivered_customer_timestamp) = 2017 LIMIT 100]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-11-26 10:24:25,400 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:24:25,445 | ERROR | ERROR | select count(*) as delivered_orders_2017
+from orders
+where order_delivered_carrier_timestamp is not null
+  and extract(year from order_delivered_carrier_timestamp) = 2017
+limit 100 | (psycopg2.errors.UndefinedColumn) column "order_delivered_carrier_timestamp" does not exist
+LINE 3: where order_delivered_carrier_timestamp is not null
+              ^
+
+[SQL: select count(*) as delivered_orders_2017
+from orders
+where order_delivered_carrier_timestamp is not null
+  and extract(year from order_delivered_carrier_timestamp) = 2017
+limit 100]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-11-26 10:28:16,988 | INFO | HTTP Request: GET http://qdrant:6333 "HTTP/1.1 200 OK"
+2026-11-26 10:29:05,988 | INFO | No device provided, using cpu
+2026-11-26 10:29:06,599 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 10:29:07,138 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:29:07,144 | INFO | Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+2026-11-26 10:29:07,325 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:29:07,328 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-26 10:29:09,497 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-26 10:29:09,674 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-26 10:29:21,736 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 10:29:22,204 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-26 10:29:47,921 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:29:49,656 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:29:50,294 | INFO | OK | 632.62ms | 1 rows | select count(*) as orders_delivered_2017
+from orders
+where order_delivered_customer_date is not null
+  and order_delivered_customer_date like '2017-%' LIMIT 100
+2026-11-26 10:29:50,896 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:31:17,722 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:31:24,140 | INFO | HTTP Request: POST http://qdrant:6333/collections/policies/points/query "HTTP/1.1 200 OK"
+2026-11-26 10:31:25,127 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:04:33,461 | INFO | HTTP Request: GET http://qdrant:6333 "HTTP/1.1 200 OK"
+2026-11-26 11:04:59,925 | INFO | No device provided, using cpu
+2026-11-26 11:05:00,509 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 11:05:00,936 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 11:05:00,938 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-26 11:05:00,943 | INFO | Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+2026-11-26 11:05:01,129 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 11:05:02,551 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-26 11:05:02,737 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-26 11:05:09,313 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 11:05:09,731 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-26 11:05:40,911 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:05:42,799 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:05:43,148 | INFO | OK | 341.42ms | 1 rows | select count(*) as orders_delivered_2017
+from orders
+where order_delivered_customer_date is not null
+  and order_delivered_customer_date like '2017-%' LIMIT 100
+2026-11-26 11:05:43,564 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:06:06,951 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:11:23,174 | INFO | HTTP Request: GET http://qdrant:6333 "HTTP/1.1 200 OK"
+2026-11-26 11:12:05,990 | INFO | No device provided, using cpu
+2026-11-26 11:12:06,577 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 11:12:07,110 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 11:12:07,112 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-26 11:12:07,117 | INFO | Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+2026-11-26 11:12:07,297 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 11:12:08,322 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-26 11:12:08,494 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-26 11:12:27,392 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 11:12:27,934 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-26 11:13:00,645 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:13:03,785 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:13:05,678 | INFO | OK | 1875.1ms | 1 rows | select count(*) as orders_delivered_2017
+from orders
+where order_delivered_customer_date is not null
+  and extract(year from order_delivered_customer_date::timestamp) = 2017 LIMIT 100
+2026-11-26 11:13:06,286 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:13:15,842 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:13:18,062 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:13:18,278 | INFO | OK | 205.56ms | 1 rows | select count(*) as delivered_orders_2018
+from orders
+where order_status = 'delivered'
+  and order_delivered_customer_date is not null
+  and extract(year from order_delivered_customer_date::timestamp) = 2018 LIMIT 100
+2026-11-26 11:13:18,786 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:15:11,945 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:15:16,576 | INFO | HTTP Request: POST http://qdrant:6333/collections/policies/points/query "HTTP/1.1 200 OK"
+2026-11-26 11:15:17,243 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:15:30,466 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:15:30,903 | INFO | HTTP Request: POST http://qdrant:6333/collections/policies/points/query "HTTP/1.1 200 OK"
+2026-11-26 11:15:32,110 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:16:38,484 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:16:40,460 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 11:16:40,683 | INFO | OK | 199.39ms | 1 rows | select count(*) as late_deliveries_2018
+from orders
+where order_delivered_customer_date is not null
+  and order_estimated_delivery_date is not null
+  and (order_delivered_customer_date)::timestamp > (order_estimated_delivery_date)::timestamp
+  and extract(year from (order_purchase_timestamp)::timestamp) = 2018 LIMIT 100
+2026-11-26 11:16:41,667 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:13:23,022 | INFO | HTTP Request: GET http://qdrant:6333 "HTTP/1.1 200 OK"
+2026-11-26 12:14:18,933 | INFO | No device provided, using cpu
+2026-11-26 12:14:19,554 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 12:14:20,208 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 12:14:20,211 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-26 12:14:20,214 | INFO | Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+2026-11-26 12:14:20,399 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+2026-11-26 12:14:21,483 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-26 12:14:21,647 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-26 12:14:35,734 | INFO | HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+2026-11-26 12:14:36,134 | INFO | HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-26 12:15:47,162 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:15:49,139 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:15:49,828 | INFO | OK | 685.17ms | 1 rows | select count(*) as orders_delivered_2017
+from orders
+where order_delivered_customer_date is not null
+  and extract(year from order_delivered_customer_date::timestamp) = 2017 LIMIT 100
+2026-11-26 12:15:50,419 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:16:03,844 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:16:05,106 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:16:05,224 | INFO | OK | 114.45ms | 1 rows | select count(*) as orders_delivered_2017
+from orders
+where order_delivered_customer_date is not null
+  and extract(year from order_delivered_customer_date::timestamp) = 2017 LIMIT 100
+2026-11-26 12:16:06,093 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:16:15,139 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:16:16,191 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 12:16:16,248 | INFO | OK | 50.53ms | 1 rows | select count(*) as delivered_orders_2019
+from orders
+where order_status = 'delivered'
+  and order_delivered_customer_date is not null
+  and order_delivered_customer_date like '2019-%' LIMIT 100
+2026-11-26 12:16:16,995 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
